@@ -9,8 +9,8 @@
         "token" : "j2k4n24jk2b34jk2b34jb23jk4b23k4b23jj;l;m6m4"
     },
     "ssl" : {
-        "cert" : "/etc/ssl/hnh.li.crt",
-        "key" : "/etc/ssl/hnh.li.key"
+        "cert" : "/etc/ssl/demo.hnh.li.crt",
+        "key" : "/etc/ssl/demo.hnh.li.key"
     },
     "logs" : {
         "error": "logs/error.log",
@@ -46,7 +46,7 @@
     ],
     "mailing" : {
         "pool" : true,
-        "host" : "mail.hnh.li",
+        "host" : "smtp.mail.ru",
         "port" : 465,
         "secure" : true,
         "auth" : {
