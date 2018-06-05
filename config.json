@@ -1,0 +1,60 @@
+{
+    "port" : 3600,
+    "db" : {
+        "local" : "mongodb://localhost:27017/headheart",
+        "cloud" : "mongodb://max:291180@cluster0-shard-00-00-egpg1.mongodb.net:27017,cluster0-shard-00-01-egpg1.mongodb.net:27017,cluster0-shard-00-02-egpg1.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin"
+    },
+    "secrets" : {
+        "cookie": "cookie",
+        "token" : "j2k4n24jk2b34jk2b34jb23jk4b23k4b23jj;l;m6m4"
+    },
+    "ssl" : {
+        "cert" : "/etc/ssl/hnh.li.crt",
+        "key" : "/etc/ssl/hnh.li.key"
+    },
+    "logs" : {
+        "error": "logs/error.log",
+        "trace": "logs/trace.log"
+    },
+    "roles" : {
+        "admin" : {
+            "title" : "Администратор",
+            "value" : "ROLE_ADMIN"
+        },
+        "associate" : {
+            "title" : "Сотрудник",
+            "value" : "ROLE_ASSOCIATE"
+        },
+        "client" : {
+            "title" : "Клиент",
+            "value" : "ROLE_CLIENT"
+        }
+    },
+    "positions" : [
+        {
+            "title" : "Руководитель",
+            "value" : "leader"
+        },
+        {
+            "title" : "Бухгалтер",
+            "value" : "accountant"
+        },
+        {
+            "title" : "Бухгалтер по зарплате",
+            "value" : "accountant_salary"
+        }
+    ],
+    "mailing" : {
+        "pool" : true,
+        "host" : "mail.hnh.li",
+        "port" : 465,
+        "secure" : true,
+        "auth" : {
+            "user" : "noreply@hnh.li",
+            "pass" : "9L7c4C4m"
+        },
+        "tls" : {
+            "rejectUnauthorized" : false
+        }
+    }
+}

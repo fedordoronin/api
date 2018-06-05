@@ -1,0 +1,12 @@
+node_modules/*
+typings/*
+npm-debug.log
+.settings/*
+.git/*
+.idea/*
+.vscode/*
+logs/*
+dest/*
+public/*
+.DS_Store
+bower_components/*
